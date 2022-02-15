@@ -162,7 +162,7 @@ keyvalue = 0  #initial keyvalue
 pair = 0  # pair value
 ask = input(' do you want to give input(Disclaimer ENTER Y OR N ONLY ) ')
 while ask == 'Y':  # after use inputted yes
-    keyvalue = int(input('enter your sid '))  # taking key value and pair value
+    keyvalue = int(input('enter your sid Dont enter duo=plicate'))  # taking key value and pair value
     pair = input('enter youtr name ')
     dic[keyvalue] = pair  #keeping values in dicctionary
     ask = input('do you want to give input ')  # asking for another input
